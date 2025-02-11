@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hotel Booking - Jaipur</title>
+</head>
+<body background="background.jpg" bgcolor="beige" align="center">
+    <h1>Book a Hotel in Jaipur</h1>
+    <nav>
+        <a href="index.html">Home</a> | 
+        <a href="heritage.html">Heritage</a> | 
+        <a href="booking.html">Hotel Booking</a> | 
+        <a href="gallery.html">Gallery</a>
+    </nav> <br><br>
+    <form action="submit_booking.html" method="post">
+        <label>Name:</label> <input type="text" name="name"><br><br>
+        <label>Email:</label> <input type="email" name="email"><br><br>
+        <label>Phone:</label> <input type="tel" name="phone"><br><br>
+        <label>Check-in Date:</label> <input type="date" name="checkin"><br><br>
+        <label>Check-out Date:</label> <input type="date" name="checkout"><br><br>
+        <label>Room Type:</label>
+        <select name="room">
+            <option>Single</option>
+            <option>Double</option>
+            <option>Suite</option>
+        </select><br><br>
+        <label>Special Requests:</label><br><br>
+        <textarea name="requests" rows="6" cols="30"></textarea><br><br>
+        <input type="submit" value="Book Now">
+    </form>
+</body>
+</html>
